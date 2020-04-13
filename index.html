@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>COVID-19 TRACKER</title>
+        <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    
+    <body>
+        
+        <!--PAGE ONE STUFF-------------------------------------------------------------------->
+        <label for = "countryChoice">Choose countries you want to display</label>
+        <input list = "countries" id = "countryChoice">
+        <button id = "countryButton">Add country</button>
+        <datalist id = "countries">
+            </datalist>
+        
+        <div><br><br>
+            
+        
+            <label for = "countryList">    Countries added: </label>
+            <ul id = "countryList">
+
+            </ul>
+        </div>
+        
+        <div>
+            <button id = "createDatatableButton">Create Datatable</button>
+        </div>
+        
+        
+        
+        
+    
+        <script type = "module" src = "js/firstPage.js"></script>
+    </body>    
+    
+    
+    
+    
+</html>
